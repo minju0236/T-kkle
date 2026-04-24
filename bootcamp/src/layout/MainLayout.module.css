@@ -1,0 +1,17 @@
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.body {
+  flex: 1;
+  width: 100%;
+  background: linear-gradient(135deg, #EFF6FF 0%, #FFF 50%, #F8FAFC 100%);
+}
+
+.main {
+  margin: 0 auto;
+  max-width: 1216px;
+  text-align: center;
+}

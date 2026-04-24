@@ -1,0 +1,91 @@
+.dashboardPage {
+    padding: 87px 20px;
+    position: relative;
+}
+
+.title {
+    color: #0A0A0A;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 42px;
+    margin-bottom: 10px;
+}
+
+.description {
+    color: #868b92;
+    line-height: 28px;
+}
+
+.addExpenseBtn {
+    position: absolute;
+    top: 230px;
+    right: 20px;
+    padding: 11px 22px;
+    border-radius: 14px;
+    background: #4A90E2;
+    color: #fff;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.addExpenseBtn:hover,
+.addExpenseBtn:active {
+    opacity: 0.8;
+    border: none;
+}
+
+.addExpenseBtn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    text-align: center;
+    margin-top: 87px;
+}
+
+th {
+    padding: 16px 24px;
+    color: #45556C;
+    font-weight: 700;
+    line-height: 20px;
+    border-bottom: 0.889px solid #000;
+    background: #F8FAFC;
+}
+
+td {
+    border-bottom: 1px solid #e5e7eb;
+    padding: 12px;
+}
+
+tr:hover {
+    background-color: #f1f5f9;
+    cursor: pointer;
+}
+
+.updateBtn {
+    color: #4A90E2;
+    margin-right: 8px;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.deleteBtn {
+    color: #EC003F;
+    margin-right: 8px;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: transparent;
+}
